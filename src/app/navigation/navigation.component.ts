@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent {
-
+  menuItems: string[] = [
+    'About',
+    'Experience',
+    'Skills',
+    'Projects',
+    'Education',
+    'Volunteer',
+  ];
 }

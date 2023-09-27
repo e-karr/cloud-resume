@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-md">
+<nav class="navbar navbar-dark sticky-top navbar-expand-md">
   <div class="container-fluid">
     <button
       class="navbar-toggler"
@@ -11,43 +11,28 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div
-      class="offcanvas offcanvas-start text-bg-dark"
+      class="offcanvas offcanvas-start"
       tabindex="-1"
       id="offcanvasNavbar"
       aria-labelledby="offcanvasNavbarLabel"
     >
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+        <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">
           <a href="" class="nav-link">Elizabeth Karr</a>
         </h5>
         <button
           type="button"
-          class="btn-close"
+          class="btn-close btn-close-white"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
         ></button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active fs-5" aria-current="page" href="#"
-              >About Me</a
+          <li class="nav-item" *ngFor="let item of menuItems" >
+            <a class="nav-link active fs-5 text-light" aria-current="page" href="#"
+              >{{item}}</a
             >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Volunteer</a>
           </li>
         </ul>
       </div>
