@@ -1,4 +1,12 @@
 img {
-    max-width: 15%;
+    max-width: 100%;
     height: auto;
   }
+
+.tile, img {
+  box-shadow: 5px 5px 10px #59114D;
+}
+
+.tile {
+  background-color: #A67DB8;
+}
