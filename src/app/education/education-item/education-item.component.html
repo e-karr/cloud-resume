@@ -1,1 +1,23 @@
-<p>education-item works!</p>
+<div class="container col-8">
+  <div class="row gap-2 text-light">
+    <div class="col-md-4 text-center">
+      <img
+        class="rounded-4"
+        [src]="educationItem.imagePath"
+        alt="LaunchCode logo rocket ship"
+      />
+    </div>
+    <div class="col-md-6">
+      <h2 class="fw-bold">{{ educationItem.school }}</h2>
+      <h4>{{ educationItem.location }}</h4>
+      <h4>{{ educationItem.degree }}</h4>
+      <h5>{{ educationItem.major }}</h5>
+      <a
+        class="text-decoration-none text-light"
+        *ngIf="educationItem.certificatePath"
+        [href]="educationItem.certificatePath"
+        >Certificate Link</a
+      >
+    </div>
+  </div>
+</div>

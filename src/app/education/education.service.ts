@@ -11,6 +11,32 @@ export class EducationService {
     ),
 
     new Education(
+      'Udemy',
+      'Certificate',
+      'Angular - The Complete Guide',
+      'assets/images/udemy.png',
+      'Online',
+      'https://www.udemy.com/certificate/UC-b310b0d4-ea23-4b0d-9f8b-4ba032a617a5/'
+    ),
+
+    new Education(
+      'Harvard edX',
+      'Certificate',
+      'CS50 - Introduction to Computer Science',
+      'assets/images/cs50.jpg',
+      'Online',
+      'https://certificates.cs50.io/3ffde443-dceb-4676-b4b0-1eac5a1c8782.pdf?size=letter'
+    ),
+
+    new Education(
+      'The Odin Project',
+      'Certificate - In Progress',
+      'Full Stack JavaScript',
+      'assets/images/odin-project.png',
+      'Online'
+    ),
+
+    new Education(
       'University of Kansas',
       'Master of Science in Education',
       'Higher Education Administration',
@@ -32,32 +58,6 @@ export class EducationService {
       'Liberal Arts',
       'assets/images/butlercc.jpg',
       'El Dorado, KS'
-    ),
-
-    new Education(
-      'The Odin Project',
-      'Certificate - In Progress',
-      'Full Stack JavaScript',
-      'assets/images/odin-project.png',
-      'Online'
-    ),
-
-    new Education(
-      'Udemy',
-      'Certificate',
-      'Angular - The Complete Guide',
-      'assets/images/udemy.png',
-      'Online',
-      'https://www.udemy.com/certificate/UC-b310b0d4-ea23-4b0d-9f8b-4ba032a617a5/'
-    ),
-
-    new Education(
-      'Harvard edX',
-      'Certificate',
-      'CS50 - Introduction to Computer Science',
-      'assets/images/cs50.jpg',
-      'Online',
-      'https://certificates.cs50.io/3ffde443-dceb-4676-b4b0-1eac5a1c8782.pdf?size=letter'
     ),
   ];
 
