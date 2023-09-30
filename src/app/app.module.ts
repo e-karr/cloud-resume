@@ -10,6 +10,7 @@ import { EducationComponent } from './education/education.component';
 import { EducationItemComponent } from './education/education-item/education-item.component';
 import { EducationService } from './education/education.service';
 import { SkillsComponent } from './skills/skills.component';
+import { SkillsService } from './skills/skills.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { SkillsComponent } from './skills/skills.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [EducationService],
+  providers: [EducationService, SkillsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
