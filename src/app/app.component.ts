@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'resume';
+  showNav: boolean = false;
+
+  constructor(private router: Router) {
+    router.events.subscribe((val) => {
+      if (val instanceof NavigationEnd) {
+        if (val.url !== '/') {
+          this.showNav = true;
+        } else {
+          this.showNav = false;
+        }
+      }
+    })
+    
+  }
 }
