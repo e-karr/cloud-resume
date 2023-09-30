@@ -1,1 +1,35 @@
-<p>skills works!</p>
+<div class="container-fluid">
+    <div class="container col-7 mt-5 text-nowrap">
+      <div class="row">
+        <div class="col-lg">
+          <div class="text-light mb-3 fs-3" *ngFor="let language of languages">
+            <img class="me-2" [src]="language.imagePath" [alt]="language.name" />
+            {{ language.name }}
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="text-light mb-3 fs-3" *ngFor="let framework of frameworks">
+            <img class="me-2" [src]="framework.imagePath" [alt]="framework.name" />
+            {{ framework.name }}
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="text-light mb-3 fs-3" *ngFor="let tool of tools">
+            <img class="me-2" [src]="tool.imagePath" [alt]="tool.name" />
+            {{ tool.name }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-end mt-5 pe-5">
+        <div class="text-secondary text-nowrap">
+            Icons by
+            <a
+              class="text-secondary"
+              target="_blank"
+              href="https://icons8.com"
+              >Icons8</a
+            >
+          </div>
+    </div>
+</div>
