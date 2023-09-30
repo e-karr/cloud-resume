@@ -3,12 +3,12 @@ import { Skill } from './skill.model';
 export class SkillsService {
   private languageList: Skill[] = [
     new Skill('JavaScript', 'language', 'assets/images/skills/javascript.png'),
-    new Skill('TypeScript', 'language', 'assets/images/skills/typescript.webp'),
+    new Skill('TypeScript', 'language', 'assets/images/skills/typescript.png'),
     new Skill('Java', 'language', 'assets/images/skills/java.png'),
-    new Skill('MySQL', 'language', 'assets/images/skills/sql.jpg'),
-    new Skill('HTML', 'language', 'assets/images/skills/html.jpg'),
+    new Skill('MySQL', 'language', 'assets/images/skills/sql.png'),
+    new Skill('HTML', 'language', 'assets/images/skills/html.png'),
     new Skill('CSS', 'language', 'assets/images/skills/css.png'),
-    new Skill('Python', 'language', 'assets/images/skills/python.jpg'),
+    new Skill('Python', 'language', 'assets/images/skills/python.png'),
   ];
 
   private frameworkList: Skill[] = [
