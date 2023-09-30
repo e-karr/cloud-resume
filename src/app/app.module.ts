@@ -7,6 +7,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { EducationComponent } from './education/education.component';
+import { EducationItemComponent } from './education/education-item/education-item.component';
+import { EducationService } from './education/education.service';
 
 @NgModule({
   declarations: [
@@ -14,13 +16,14 @@ import { EducationComponent } from './education/education.component';
     NavigationComponent,
     HomePageComponent,
     FooterComponent,
-    EducationComponent
+    EducationComponent,
+    EducationItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [EducationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
