@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #949D6A;
+  background-color: #949d6a;
+}
+
+html,
+body,
+app-root {
+  height: 100%;
+  margin: 0;
 }
