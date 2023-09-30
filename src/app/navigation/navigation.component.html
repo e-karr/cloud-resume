@@ -1,4 +1,5 @@
 <nav class="navbar navbar-dark sticky-top navbar-expand-md">
+  
   <div class="container-fluid">
     <button
       class="navbar-toggler"
@@ -18,7 +19,7 @@
     >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">
-          <a href="" class="nav-link">Elizabeth Karr</a>
+          <a routerLink="/" class="nav-link">Elizabeth Karr</a>
         </h5>
         <button
           type="button"
@@ -29,8 +30,11 @@
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a routerLink="/" class="nav-link fs-5">Home</a>
+          </li>
           <li class="nav-item" *ngFor="let item of menuItems" >
-            <a class="nav-link active fs-5 text-light" aria-current="page" href="#"
+            <a routerLinkActive="active" routerLink="{{ item | lowercase }}" class="nav-link fs-5" aria-current="page" href="#"
               >{{item}}</a
             >
           </li>

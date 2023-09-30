@@ -15,11 +15,13 @@
     </div>
   </div>
 
-  <div class="row mt-4 row-gap-5 column-gap-4 row-cols-2 align-items-center justify-content-center">
+  <div
+    class="row mt-4 row-gap-5 column-gap-4 row-cols-2 align-items-center justify-content-center"
+  >
     <div *ngFor="let item of menuItems" class="col-6 col-sm-5">
-        <a class="text-decoration-none" href="">
-            <div class="fs-1 rounded tile text-light py-4" >{{ item }}</div>
-        </a>
+      <a class="text-decoration-none" routerLink="{{ item | lowercase }}">
+        <div class="fs-1 rounded tile text-light py-4">{{ item }}</div>
+      </a>
     </div>
   </div>
 </div>

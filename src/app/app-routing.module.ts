@@ -4,6 +4,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { EducationComponent } from './education/education.component';
 
 const routes: Routes = [
+  
   {
     path: '',
     component: HomePageComponent,
