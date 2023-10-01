@@ -15,6 +15,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProjectsService } from './projects/projects.service';
 import { ProjectItemComponent } from './projects/project-item/project-item.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceService } from './experience/experience.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,12 @@ import { ExperienceComponent } from './experience/experience.component';
     ExperienceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [EducationService, SkillsService, ProjectsService],
+  providers: [
+    EducationService,
+    SkillsService,
+    ProjectsService,
+    ExperienceService,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
