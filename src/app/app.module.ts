@@ -11,6 +11,7 @@ import { EducationItemComponent } from './education/education-item/education-ite
 import { EducationService } from './education/education.service';
 import { SkillsComponent } from './skills/skills.component';
 import { SkillsService } from './skills/skills.service';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SkillsService } from './skills/skills.service';
     FooterComponent,
     EducationComponent,
     EducationItemComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
