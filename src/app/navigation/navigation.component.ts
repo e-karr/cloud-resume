@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NavigationComponent {
   menuItems: string[] = [
-    'About',
     'Experience',
     'Skills',
     'Projects',

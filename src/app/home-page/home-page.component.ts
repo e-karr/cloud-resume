@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HomePageComponent {
   menuItems: string[] = [
-    'About',
     'Experience',
     'Skills',
     'Projects',
