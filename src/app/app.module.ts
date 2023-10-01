@@ -16,6 +16,7 @@ import { ProjectsService } from './projects/projects.service';
 import { ProjectItemComponent } from './projects/project-item/project-item.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceService } from './experience/experience.service';
+import { JobItemComponent } from './experience/job-item/job-item.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ExperienceService } from './experience/experience.service';
     ProjectsComponent,
     ProjectItemComponent,
     ExperienceComponent,
+    JobItemComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
