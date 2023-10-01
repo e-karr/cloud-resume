@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Job } from '../job.model';
+import { BulletPoint } from 'src/app/bullet-point.model';
 
 @Component({
   selector: 'app-job-item',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./job-item.component.css']
 })
 export class JobItemComponent {
-
+  @Input() jobItem!: Job;
 }
