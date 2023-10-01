@@ -14,6 +14,7 @@ import { SkillsService } from './skills/skills.service';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectsService } from './projects/projects.service';
 import { ProjectItemComponent } from './projects/project-item/project-item.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ProjectItemComponent } from './projects/project-item/project-item.compo
     SkillsComponent,
     ProjectsComponent,
     ProjectItemComponent,
+    ExperienceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [EducationService, SkillsService, ProjectsService],
