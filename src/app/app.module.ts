@@ -13,6 +13,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { SkillsService } from './skills/skills.service';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectsService } from './projects/projects.service';
+import { ProjectItemComponent } from './projects/project-item/project-item.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ProjectsService } from './projects/projects.service';
     EducationItemComponent,
     SkillsComponent,
     ProjectsComponent,
+    ProjectItemComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [EducationService, SkillsService, ProjectsService],
