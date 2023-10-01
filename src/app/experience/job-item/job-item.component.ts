@@ -5,7 +5,7 @@ import { BulletPoint } from 'src/app/bullet-point.model';
 @Component({
   selector: 'app-job-item',
   templateUrl: './job-item.component.html',
-  styleUrls: ['./job-item.component.css']
+  styleUrls: ['./job-item.component.css'],
 })
 export class JobItemComponent {
   @Input() jobItem!: Job;

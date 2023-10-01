@@ -1,1 +1,6 @@
-<p>experience works!</p>
+<div class="container-lg">
+  <app-job-item
+    *ngFor="let job of experienceList"
+    [jobItem]="job"
+  ></app-job-item>
+</div>
