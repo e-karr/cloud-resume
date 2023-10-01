@@ -1,6 +1,6 @@
 <div class="container-lg text-light">
   <div class="row gap-2 mt-4">
-    <div class="col-md-4">
+    <div class="col-md-3">
       <img
         class="img-fluid rounded"
         [src]="jobItem.imagePath"
@@ -28,7 +28,7 @@
       </div>
       <div
         *ngIf="jobItem.title2 !== null && jobItem.dates2 !== null"
-        class="d-flex fst-italic justify-content-between align-items-center"
+        class="d-flex flex-wrap fst-italic justify-content-between align-items-center"
       >
         <h5 class="">
           {{ jobItem.title2 }}
@@ -38,7 +38,7 @@
         </h5>
       </div>
       <ul class="ps-3">
-        <li *ngFor="let bullet of jobItem.bullets">{{ bullet.bullet }}</li>
+        <li class="mb-2" *ngFor="let bullet of jobItem.bullets">{{ bullet.bullet }}</li>
       </ul>
     </div>
   </div>

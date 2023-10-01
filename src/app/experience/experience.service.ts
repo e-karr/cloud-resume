@@ -58,7 +58,7 @@ export class ExperienceService {
     ),
 
     new Job(
-      'University of Kansas, School of Business',
+      'KU School of Business',
       'Assistant Director of Undergraduate Recruitment',
       'Recruitment Coordinator & Academic Advisor',
       'Lawrence, KS',
@@ -94,7 +94,7 @@ export class ExperienceService {
     ),
 
     new Job(
-      'University of Kansas, School of Engineering',
+      'KU School of Engineering',
       'Aerospace Engineering, Administrative Associate',
       null,
       'Lawrence, KS',
