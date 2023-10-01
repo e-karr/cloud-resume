@@ -12,6 +12,5 @@ export class HomePageComponent {
     'Skills',
     'Projects',
     'Education',
-    'Volunteer',
   ];
 }

@@ -12,6 +12,5 @@ export class NavigationComponent {
     'Skills',
     'Projects',
     'Education',
-    'Volunteer',
   ];
 }
