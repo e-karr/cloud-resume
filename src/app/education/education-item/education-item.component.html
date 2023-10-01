@@ -1,15 +1,17 @@
 <div class="container col-7 mt-1">
-  <div class="row gap-2 text-light">
-    <div class="col-md-4 ">
+  <div class="row  justify-content-center gap-2 text-light">
+    <div class="col-md-3 text-center">
       <img
         class="rounded-4"
         [src]="educationItem.imagePath"
         [alt]="educationItem.school"
       />
     </div>
-    <div class="col-md-6">
-      <h2 class="fw-bold">{{ educationItem.school }}</h2>
-      <h4>{{ educationItem.location }}</h4>
+    <div class="col ">
+      <div class="d-flex  flex-wrap justify-content-between align-items-center">
+        <h2 class="fw-bold">{{ educationItem.school }}</h2>
+        <h4>{{ educationItem.location }}</h4>
+      </div>
       <h4>{{ educationItem.degree }}</h4>
       <h5>{{ educationItem.major }}</h5>
       <a
