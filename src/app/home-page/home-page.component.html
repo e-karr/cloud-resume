@@ -1,29 +1,100 @@
-<div class="container mt-3 text-light">
-  <div
-    class="row  justify-content-center align-items-center row-gap-3"
-    style="max-height: 500px"
-  >
-    <div class="col-sm-4 text-center ">
+<div class="container my-3 text-light text-">
+  <div class="row align-items-center">
+    <div class="col-sm-4 text-center">
       <img
         src="assets/images/headshot.jpg"
         alt=""
-        class="img-fluid rounded-circle"
+        class="img-fluid rounded-circle headshot"
       />
     </div>
-    <div class="col ">
-      <h1 class="display-2 fw-bold">Elizabeth Karr</h1>
-      <div class="mb-2 fs-4">Passionate / Collaborative / Hard Working</div>
-      <div class="fs-4">Software Developer / Kickballer / Dog Mom</div>
+    <div class="col">
+      <h1 class="display-1 fw-bold">Elizabeth Karr</h1>
+      <div class="d-flex flex-wrap justify-content-start fs-2">
+        <div class="px-2 border-end">Passionate</div>
+        <div class="px-2 border-end">Collaborative</div>
+        <div class="px-2">Hard Working</div>
+      </div>
     </div>
   </div>
 
-  <div
-    class="row  text-center mt-5 row-gap-5 column-gap-2 align-items-center justify-content-center"
-  >
-    <div *ngFor="let item of menuItems" class="col-sm-3">
-      <a class="text-decoration-none" routerLink="{{ item | lowercase }}">
-        <div class="fs-3 rounded tile text-light py-4">{{ item }}</div>
-      </a>
+  <hr />
+
+  <div class="container text-center">
+    <div class="row row-gap-2 justify-content-center align-items-center">
+      <div class="col-lg-2 section-tile rounded p-2 fs-3">
+        Software Developer
+      </div>
+      <div class="col">
+        <div class="fs-5">
+          I'm an entry-level software developer seeking a career in full-stack,
+          front-end, or back-end development. <br />
+          Click the buttons below to learn my about my experience and projects!
+        </div>
+        <div class="d-flex flex-wrap justify-content-center">
+          <a
+            *ngFor="let item of menuItems"
+            class="text-decoration-none"
+            routerLink="{{ item | lowercase }}"
+          >
+            <div class="fs-3 rounded tile text-light px-5 m-2">{{ item }}</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="container text-center">
+    <div class="row row-gap-2 justify-content-center align-items-center">
+      <div class="col-lg-2 section-tile rounded p-2 fs-3">Kickballer</div>
+      <div class="col">
+        <div class="row row-gap-2 align-items-center">
+          <div class="col px-4">
+            <div class="fs-5">
+              In my free time, I play in two kickball leagues in Lawrence, KS
+              and in a nationwide travelling kickball league. I currently
+              volunteer as a board member for the
+              <a class="text-light" href="kawvalleykickball.com"
+                >Kaw Valley Kickball League</a
+              >.
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img
+              src="assets/images/lisafrank.jpeg"
+              alt="female kickball team holding a banner and trophy"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="container text-center">
+    <div class="row row-gap-3 column-gap-2 justify-content-center align-items-center">
+      <div class="col-lg-2 section-tile rounded p-2 fs-3">Dog Mom</div>
+      <div class="col">
+        <div class="row row-gap-2 align-items-center">
+          <div class="col-lg-2 text-center">
+            <img
+              src="assets/images/dogs.jpeg"
+              alt="two tan dogs siting next to eachother wearing blue bandanas"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col px-4">
+            <div class="fs-5">
+              My world revolves around my two dogs, Hazel and Hammond. They are
+              my favorite walking and running partners. We enjoy mornings at the
+              dog park and cheering on the Kansas Jayhawks.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

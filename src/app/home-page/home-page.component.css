@@ -1,12 +1,21 @@
 img {
-    max-width: 50%;
-    height: auto;
-  }
+  box-shadow: 5px 5px 10px #84dccf;
+  border: 2px solid #084c61;
+}
 
-.tile, img {
-  box-shadow: 5px 5px 10px #59114D;
+.headshot {
+  max-width: 45%;
+  height: auto;
+  
+}
+
+.section-tile {
+  box-shadow: 5px 5px 10px #84dccf;
+  background-color: #084c61;
 }
 
 .tile {
-  background-color: #A67DB8;
+  box-shadow: 5px 5px 10px #59114d;
+  background-color: #a67db8;
 }
+
