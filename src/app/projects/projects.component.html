@@ -1,1 +1,6 @@
-<p>projects works!</p>
+<div class="container-fluid">
+  <app-project-item
+    *ngFor="let project of projects"
+    [projectItem]="project"
+  ></app-project-item>
+</div>
