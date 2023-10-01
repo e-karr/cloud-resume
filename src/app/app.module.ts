@@ -12,6 +12,7 @@ import { EducationService } from './education/education.service';
 import { SkillsComponent } from './skills/skills.component';
 import { SkillsService } from './skills/skills.service';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsService } from './projects/projects.service';
 
 @NgModule({
   declarations: [
@@ -22,13 +23,10 @@ import { ProjectsComponent } from './projects/projects.component';
     EducationComponent,
     EducationItemComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [EducationService, SkillsService],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, AppRoutingModule],
+  providers: [EducationService, SkillsService, ProjectsService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
