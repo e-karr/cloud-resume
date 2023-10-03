@@ -18,6 +18,7 @@ import { ProjectItemComponent } from './projects/project-item/project-item.compo
 import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceService } from './experience/experience.service';
 import { JobItemComponent } from './experience/job-item/job-item.component';
+import { VisitorCountService } from './visitor-count.service';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { JobItemComponent } from './experience/job-item/job-item.component';
     SkillsService,
     ProjectsService,
     ExperienceService,
+    VisitorCountService,
   ],
   bootstrap: [AppComponent],
 })
