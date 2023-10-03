@@ -40,7 +40,6 @@ import { VisitorCountService } from './visitor-count.service';
     SkillsService,
     ProjectsService,
     ExperienceService,
-    VisitorCountService,
   ],
   bootstrap: [AppComponent],
 })
