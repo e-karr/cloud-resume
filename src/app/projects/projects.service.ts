@@ -6,7 +6,7 @@ export class ProjectsService {
     new Project(
       'AWS Cloud Resume Challenge',
       'placeholder link',
-      [new BulletPoint('placeholder bullet point')],
+      [new BulletPoint('Design and develop single-page application using Angular framework')],
       ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap', 'AWS', 'Python'],
       'assets/images/projects/resume.png'
     ),
