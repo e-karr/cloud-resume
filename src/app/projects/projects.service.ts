@@ -5,7 +5,7 @@ export class ProjectsService {
   private projectsList: Project[] = [
     new Project(
       'AWS Cloud Resume Challenge',
-      'placeholder link',
+      'elizabeth-karr.com',
       [new BulletPoint('Design and develop single-page application using Angular framework')],
       ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap', 'AWS', 'Python'],
       'assets/images/projects/resume.png'
