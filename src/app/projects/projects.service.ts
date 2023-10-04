@@ -9,7 +9,7 @@ export class ProjectsService {
       [new BulletPoint('Design and develop single-page application using Angular framework')],
       ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap', 'AWS', 'Python'],
       'assets/images/projects/resume.png',
-      'elizabeth-karr.com'
+      'https://www.elizabeth-karr.com'
     ),
 
     new Project(
