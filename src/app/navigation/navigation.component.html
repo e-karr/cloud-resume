@@ -1,6 +1,5 @@
 <nav class="navbar navbar-dark sticky-top navbar-expand-md">
-  
-  <div class="container-fluid">
+  <div class="container-fluid" data-bs-theme="dark">
     <button
       class="navbar-toggler"
       type="button"
@@ -23,7 +22,7 @@
         </h5>
         <button
           type="button"
-          class="btn-close btn-close-white"
+          class="btn-close"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
         ></button>
@@ -33,9 +32,18 @@
           <li class="nav-item">
             <a routerLink="/" class="nav-link fs-5">Home</a>
           </li>
-          <li class="nav-item" *ngFor="let item of menuItems" >
-            <a routerLinkActive="active" routerLink="{{ item | lowercase }}" class="nav-link fs-5" aria-current="page" href="#"
-              >{{item}}</a
+          <li
+            class="nav-item"
+            *ngFor="let item of menuItems"
+            data-bs-dismiss="offcanvas"
+          >
+            <a
+              routerLinkActive="active"
+              routerLink="{{ item | lowercase }}"
+              class="nav-link fs-5"
+              aria-current="page"
+              href="#"
+              >{{ item }}</a
             >
           </li>
         </ul>
