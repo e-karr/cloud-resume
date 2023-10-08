@@ -1,3 +1,8 @@
 nav, #offcanvasNavbar {
     background-color: #084C61;
 }
+
+.close-button {
+    background-color: transparent;
+    border: none;
+}
