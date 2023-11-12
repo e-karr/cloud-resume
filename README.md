@@ -1,4 +1,6 @@
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+### 💫 Last Update
+<!-- DEFAULT-TAG:START -->
+<!-- DEFAULT-TAG:END -->
 
 # [AWS Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/)
 
