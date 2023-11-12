@@ -23,4 +23,4 @@ jobs:
           commit_branch: 'main'
           commit_username: 'e-karr'
           commit_email: 'e-karr@users.noreply.github.com'
-          commit_message: '🚀 Datetime of Workflow Updated'
+          commit_message: '🚀 Datetime of Workflow Updated!'
