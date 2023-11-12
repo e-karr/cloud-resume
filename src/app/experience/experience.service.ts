@@ -12,7 +12,7 @@ export class ExperienceService {
       null,
       [
         new BulletPoint(
-          'Collaborate with colleagues on AWS infrastructure projects'
+          'Collaborate with colleagues on AWS infrastructure projects, such as tracking OS upgrades and building dashboards in CloudWatch to monitor RDS database performance'
         ),
         new BulletPoint(
           'Analyze VPC flow logs and security groups to identify redundancy in security group rules'
@@ -42,7 +42,7 @@ export class ExperienceService {
           'Partnered with Early Career Programs Manager to build a strategic and data-driven recruitment plan for internships and entry-level roles.'
         ),
         new BulletPoint(
-          'Represented Commerce Bank at college recruitment and community events such as career fairs, mock interviews, resume reviews, and professional development events.'
+          'Represented Commerce Bank at college recruitment and community events such as career fairs, mock interviews, resume reviews, and professional development events; fostering meaningful connections with prospective talent and generating applications from target universities and demographics'
         ),
         new BulletPoint(
           'Cultivated relationships with hiring managers across the bank through close communication about the hiring process on open positions.'

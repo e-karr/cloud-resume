@@ -6,8 +6,28 @@ export class ProjectsService {
     new Project(
       'AWS Cloud Resume - In Progress',
       'https://github.com/e-karr/cloud-resume',
-      [new BulletPoint('Designed and developed single-page application using Angular framework'), new BulletPoint('Utilized CloudFormation template to provision S3 and CloudFront AWS resources'), new BulletPoint('Deployed website with S3 and domain name from Route 53'), new BulletPoint('Allowed for HTTPS security with CloudFront'), new BulletPoint('Coming soon - Configure API resources (DynamoDB, API Gateway, Lambda) with Terraform'), new BulletPoint('Coming soon - Implement visitor counter with DynamoDB, API Gateway, and Python Lambda function'), new BulletPoint('Coming soon - Use GitHub Actions to impliment CI/CD strategy')],
-      ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap', 'AWS',],
+      [
+        new BulletPoint(
+          'Designed and developed single-page application using Angular framework'
+        ),
+        new BulletPoint(
+          'Utilized CloudFormation template to provision S3 and CloudFront AWS resources'
+        ),
+        new BulletPoint(
+          'Deployed website with S3 and domain name from Route 53'
+        ),
+        new BulletPoint('Allowed for HTTPS security with CloudFront'),
+        new BulletPoint(
+          'Configured API resources (DynamoDB, API Gateway, Lambda) with Terraform'
+        ),
+        new BulletPoint(
+          'Coming soon - Implement visitor counter with DynamoDB, API Gateway, and Python Lambda function'
+        ),
+        new BulletPoint(
+          'Coming soon - Use GitHub Actions to impliment CI/CD strategy'
+        ),
+      ],
+      ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap', 'AWS'],
       'assets/images/projects/resume.png',
       'https://www.elizabeth-karr.com'
     ),

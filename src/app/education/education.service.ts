@@ -4,8 +4,8 @@ export class EducationService {
   private educationList: Education[] = [
     new Education(
       'LaunchCode',
-      'Certificate - In Progress',
-      'Java Web Development Bootcamp',
+      'Certificate',
+      'Full Statck Web Development',
       'assets/images/launchcode.png',
       'Kansas City, MO'
     ),

@@ -19,7 +19,6 @@ export class SkillsService {
       'assets/images/skills/springboot.svg'
     ),
     new Skill('Bootstrap', 'framework', 'assets/images/skills/bootstrap.svg'),
-    new Skill('Flask', 'framework', 'assets/images/skills/flask.svg'),
   ];
 
   private toolList: Skill[] = [
