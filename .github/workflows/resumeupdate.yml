@@ -52,11 +52,16 @@ jobs:
           npm install -g @angular/cli
           ./node_modules/.bin/ng build
           echo "Angular build completed"
+          ls
+
+      - name: List Dist Contents
+        run: |
+          ls -R ./dist
           
       # 6. Copy to S3 Bucket
       - name: Copy to S3 Bucket
         run: |
-          aws s3 cp ./dist/* s3://amazon-cloudfront-secure-static-site-s3bucketroot-6jd606vo4pso
+          aws s3 cp ./dist/ s3://amazon-cloudfront-secure-static-site-s3bucketroot-6jd606vo4pso --recursive
           
       # 7. Invalidate CloudFront
       - name: Invalidate CloudFront
