@@ -49,7 +49,8 @@ jobs:
         run: |
           ls
           npm install
-          ng build
+          npm install -g @angular/cli
+          ./node_modules/.bin/ng build
           echo "Angular build completed"
           
       # 6. Copy to S3 Bucket
