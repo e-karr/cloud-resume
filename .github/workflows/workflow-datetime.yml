@@ -15,12 +15,12 @@ jobs:
       - name: Update with Datetime of Workflow
         uses: ZekeriyaAY/workflow-date@main
         with:
-          github_token: ${{ secrets.TOKEN }}
-          date_format: '%a  %d %b %Y  %H:%M:%S%Z'
-          timezone: 'America/Chicago'
-          tag: 'DEFAULT-TAG'
-          markdown_path: './README.md'
-          commit_branch: 'main'
-          commit_username: 'e-karr'
-          commit_email: 'e-karr@users.noreply.github.com'
-          commit_message: '🚀 Datetime of Workflow Updated!'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # date_format: '%a  %d %b %Y  %H:%M:%S%Z'
+          # timezone: 'UTC'
+          # tag: 'DEFAULT-TAG'
+          # markdown_path: './README.md'
+          # commit_branch: 'main'
+          # commit_username: 'github-actions[bot]'
+          # commit_email: 'github-actions[bot]@users.noreply.github.com'
+          # commit_message: '🚀 Datetime of Workflow Updated'
