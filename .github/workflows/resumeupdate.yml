@@ -1,0 +1,6 @@
+name: Resume Front End CI/CD
+
+# on push
+# run ng build
+# send dist folder files/folders to S3: amazon-cloudfront-secure-static-site-s3bucketroot-6jd606vo4pso
+# invalidate CloudFront cache
