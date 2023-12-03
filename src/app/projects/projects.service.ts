@@ -3,6 +3,17 @@ import { Project } from './project.model';
 
 export class ProjectsService {
   private projectsList: Project[] = [
+    new Project('Popcorn Picks', 'https://github.com/e-karr/launchcode-popcorn-picks',
+    [
+      new BulletPoint('Collaboratively built an app that allows users to browse and filter movies based on genre, streaming service, release year, etc., and search by text; users can save movies to watch later, watch history lists, and leave reviews'),
+      new BulletPoint('Developed service in Angular and controller in Java to communicate with external API and retrieve movie details'),
+      new BulletPoint('Designed and developed search by text functionality, allowing users to search for movies based on title or person'),
+      new BulletPoint('Created a quiz that collects user answers in Angular, sends parameters to external API through Java, and returns a movie recommendation based on the user answers')
+    ],
+    ['Angular', 'TypeScript', 'Java', 'SpringBoot', 'MySQL', 'Bootstrap'],
+    'assets/images/projects/popcorn-picks.png',
+    'https://drive.google.com/file/d/1vss4q0R5BvGd2El4r_dBvSDgO7v_AI6J/view?usp=share_link'),
+
     new Project(
       'AWS Cloud Resume - In Progress',
       'https://github.com/e-karr/cloud-resume',
@@ -21,10 +32,10 @@ export class ProjectsService {
           'Configured API resources (DynamoDB, API Gateway, Lambda) with Terraform'
         ),
         new BulletPoint(
-          'Coming soon - Implement visitor counter with DynamoDB, API Gateway, and Python Lambda function'
+          'Implemented a CI/CD pipeline for front-end Angular updates using Github Actions'
         ),
         new BulletPoint(
-          'Coming soon - Use GitHub Actions to impliment CI/CD strategy'
+          'Coming soon - Implement visitor counter with DynamoDB, API Gateway, and Python Lambda function'
         ),
       ],
       ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap', 'AWS'],

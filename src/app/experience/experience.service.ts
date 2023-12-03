@@ -15,7 +15,7 @@ export class ExperienceService {
           'Collaborate with colleagues on AWS infrastructure projects, such as tracking OS upgrades and building dashboards in CloudWatch to monitor RDS database performance'
         ),
         new BulletPoint(
-          'Analyze VPC flow logs and security groups to identify redundancy in security group rules'
+          'Designed process to analyze VPC flow logs and security group rules to identify redundancy and clean up security groups using S3, Lambda, EventBridge Scheduler, Glue, and Athena'
         ),
         new BulletPoint(
           'Researched OpenSearch Serverless, API Gateway, and Lambda functions to collaboratively build proof of concept search engine'

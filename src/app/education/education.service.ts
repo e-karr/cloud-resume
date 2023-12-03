@@ -5,7 +5,7 @@ export class EducationService {
     new Education(
       'LaunchCode',
       'Certificate',
-      'Full Statck Web Development',
+      'Full Stack Web Development',
       'assets/images/launchcode.png',
       'Kansas City, MO'
     ),
