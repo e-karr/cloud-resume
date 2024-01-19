@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-    workflow_dispatch:
+  workflow_dispatch:
 jobs:
   workflow-date:
     name: Update the datetime of workflow in the README
