@@ -15,7 +15,7 @@ export class ProjectsService {
     'https://drive.google.com/file/d/1vss4q0R5BvGd2El4r_dBvSDgO7v_AI6J/view?usp=share_link'),
 
     new Project(
-      'AWS Cloud Resume - In Progress',
+      'AWS Cloud Resume',
       'https://github.com/e-karr/cloud-resume',
       [
         new BulletPoint(
@@ -32,13 +32,13 @@ export class ProjectsService {
           'Configured API resources (DynamoDB, API Gateway, Lambda) with Terraform'
         ),
         new BulletPoint(
-          'Implemented a CI/CD pipeline for front-end Angular updates using Github Actions'
+          'Built a CI/CD pipeline for front-end Angular updates using Github Actions'
         ),
         new BulletPoint(
-          'Coming soon - Implement visitor counter with DynamoDB, API Gateway, and Python Lambda function'
+          'Implemented a visitor counter with DynamoDB and Lambda function'
         ),
       ],
-      ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap', 'AWS'],
+      ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap', 'AWS', 'Python', 'Terraform'],
       'assets/images/projects/resume.png',
       'https://www.elizabeth-karr.com'
     ),

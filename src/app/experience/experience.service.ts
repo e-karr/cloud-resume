@@ -5,10 +5,26 @@ export class ExperienceService {
   private experienceList: Job[] = [
     new Job(
       'Security Benefit',
+      'Software Engineer I',
+      null,
+      'Topeka, KS',
+      'January 2024 - Present',
+      null,
+      [
+        new BulletPoint(
+          'Design, develop, test, and maintain software systems, databases, and application integrations for the derivatives trading team'
+        ),
+        new BulletPoint(
+          'Support software for reporting applications to deliver reports that run daily/monthly'
+        )
+      ],
+      'assets/images/experience/securitybenefit.png'),
+    new Job(
+      'Security Benefit',
       'IT Intern - AWS Infrastructure',
       null,
       'Topeka, KS',
-      'August 2023 - Present',
+      'August 2023 - January 2024',
       null,
       [
         new BulletPoint(
