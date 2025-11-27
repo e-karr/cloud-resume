@@ -1,6 +1,6 @@
 ### 💫 Last Update
 <!-- DEFAULT-TAG:START -->
-Sat  24 Feb 2024
+Wed  26 Nov 2025
 <!-- DEFAULT-TAG:END -->
 
 # [AWS Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/)
