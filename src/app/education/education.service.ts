@@ -3,6 +3,13 @@ import { Education } from './education.model';
 export class EducationService {
   private educationList: Education[] = [
     new Education(
+      'Amazon Web Services',
+      'Certificate',
+      'Certified Cloud Practitioner',
+      'assets/images/aws-cloud-pract.png',
+      'Online'
+    ),
+    new Education(
       'LaunchCode',
       'Certificate',
       'Full Stack Web Development',
@@ -26,14 +33,6 @@ export class EducationService {
       'assets/images/cs50.jpg',
       'Online',
       'https://certificates.cs50.io/3ffde443-dceb-4676-b4b0-1eac5a1c8782.pdf?size=letter'
-    ),
-
-    new Education(
-      'The Odin Project',
-      'Certificate - In Progress',
-      'Full Stack JavaScript',
-      'assets/images/odin-project.png',
-      'Online'
     ),
 
     new Education(

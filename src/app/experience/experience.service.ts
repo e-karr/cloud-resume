@@ -5,17 +5,26 @@ export class ExperienceService {
   private experienceList: Job[] = [
     new Job(
       'Security Benefit',
-      'Software Engineer I',
+      'Software Engineer II',
       null,
       'Topeka, KS',
       'January 2024 - Present',
       null,
       [
         new BulletPoint(
-          'Design, develop, test, and maintain software systems, databases, and application integrations for the derivatives trading team'
+          'Develop and maintain Python applications that provide timely, accurate liability and market data insights to the derivatives trading team, supporting daily trading decisions for product risk management.'
         ),
         new BulletPoint(
-          'Support software for reporting applications to deliver reports that run daily/monthly'
+          'Own full development life cycle for new features and system improvements, including design and architecture considerations, DevOps coordination, code implementation, QA partnership, and production deployment support.'
+        ),
+        new BulletPoint(
+          'Transformed a complex SQL stored procedure into a maintainable, high-performance Python application, improving testability, easing future enhancements, and ensuring accurate generation of integral liability data sourced from nine SQL tables.'
+        ),
+        new BulletPoint(
+          'Implemented new business features in the main Angular application, improving maintainability by componentizing enhancements and following Angular best practices.'
+        ),
+        new BulletPoint(
+          'Led the team-wide upgrade of all team Python applications to Python 3.12 by completing initial conversions and producing upgrade documentation and lists of key code changes to look for during team-wide adoption.'
         )
       ],
       'assets/images/experience/securitybenefit.png'),
